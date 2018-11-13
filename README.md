@@ -86,9 +86,12 @@ l[:5] # [0, 1, 2, 3, 4]
 l[-1] # 10
 ```
 
-*Loop*
+*Loops*
 
 ```
+for i in range(0, 11):
+  print(i)
+
 words = 'Do you know the way'
 
 word_count = 0

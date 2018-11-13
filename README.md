@@ -32,7 +32,7 @@ In particular we will use the matplotlib.pyplot module.
 ![](https://i.redd.it/7v0a4ldssdq11.png)
 
 * No semicolumns at the end of each statement
-* No curly brackets {}, just indentation
+* No "{}", just ":" and indentation
 * No declaration of variables
 
 Happy days 😎
@@ -87,6 +87,14 @@ l[-1] # 10
 ```
 
 *Loops*
+```
+l = list(range(0, 11))
+
+for i in range(len(l)):
+  print(l[i])
+```
+
+![](https://imgflip.com/s/meme/Picard-Wtf.jpg)
 
 ```
 for i in range(0, 11):

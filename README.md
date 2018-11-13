@@ -1,33 +1,33 @@
 # Data Visualisation with Python (matplotlib) - City Tech Society workshop
 
-![alt text](https://raw.githubusercontent.com/eydandash/CityTechSoc-WebDev-101/master/Logo.png)
+![](https://raw.githubusercontent.com/eydandash/CityTechSoc-WebDev-101/master/Logo.png)
 
 Welcome to the Data Visualisation with Python workshop 💻📈
 
-**Overview**
+### Overview
 
 This workshop talks about how to create basic visualisation using python's matplotlib library.
 In particular we will use the matplotlib.pyplot module.
 
-**Why Python?**
+### Why Python?
 
 * It is a general purpose language
 * Easy to learn
 * Many data visualisation libraries (including matplotlib)
 
-**Why Data Visualisation?**
+### Why Data Visualisation?
 * First step of data analysis work
 * Give intuitive understanding (find patterns that are hard to see)
 * Explore data
 * Comunicate data
 
-**Why matplotlib? 🤔**
+### Why matplotlib? 🤔
 * It is one of the most popular
 * Other libraries are based on matplotlib e.g. seaborn
 
-**The Basics**
+### The Basics
 
-*Syntax*
+**Syntax**
 
 ![](https://i.redd.it/7v0a4ldssdq11.png)
 
@@ -44,7 +44,7 @@ s = "I am a string"
 t = 'I am a string too'
 ```
 
-*Modules*
+**Modules**
 
 ```
 import matplotlib
@@ -52,7 +52,7 @@ from matplotlib import pyplot as plt
 import matplotlib.pyplot as plt
 ```
 
-*Arithmetic*
+**Arithmetic**
 
 ```
 x = 5
@@ -65,7 +65,7 @@ d1 = x / y # 2.5
 d2 = x // y # 2
 p = x ** y # 25
 ```
-*Functions*
+**Functions**
 
 ```
 def squared(x):
@@ -76,7 +76,7 @@ def squared(x):
  squared = lambda x: x **2
 ```
 
-*Lists*
+**Lists**
 
 ```
 l = list(range(0, 11)) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -86,7 +86,7 @@ l[:5] # [0, 1, 2, 3, 4]
 l[-1] # 10
 ```
 
-*Loops*
+**Loops**
 ```
 l = list(range(0, 11))
 
@@ -108,4 +108,4 @@ for word in words:
                   # no word_count++ (sorry guys)
 ```
 
-Now let's visualise some data!!! 👌🏼🍕
+## Now let's visualise some data!!! 👌🏼🍕

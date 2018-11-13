@@ -63,4 +63,36 @@ s = x - y # 3
 m = x * y # 10
 d1 = x / y # 2.5
 d2 = x // y # 2
+p = x ** y # 25
+```
+*Functions*
+
+```
+def squared(x):
+  return x ** 2
+  
+ # or
+  
+ squared = lambda x: x **2
+```
+
+*Lists*
+
+```
+l = list(range(0, 11)) # [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+l[5] # 5
+l[0:5] # [0, 1, 2, 3, 4]
+l[:5] # [0, 1, 2, 3, 4]
+l[-1] # 10
+```
+
+*Loop*
+
+```
+words = 'Do you know the way'
+
+word_count = 0
+for word in words:
+  word_count += 1 # 5
+                  # no word_count++ (sorry guys)
 ```

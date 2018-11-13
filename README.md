@@ -107,3 +107,5 @@ for word in words:
   word_count += 1 # 5
                   # no word_count++ (sorry guys)
 ```
+
+Now let's visualise some data!!! 👌🏼🍕

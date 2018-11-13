@@ -24,3 +24,43 @@ In particular we will use the matplotlib.pyplot module.
 **Why matplotlib? 🤔**
 * It is one of the most popular
 * Other libraries are based on matplotlib e.g. seaborn
+
+**The Basics**
+
+*Syntax*
+
+![](https://i.redd.it/7v0a4ldssdq11.png)
+
+* No semicolumns at the end of each statement
+* No curly brackets {}, just indentation
+* No declaration of variables
+
+Happy days 😎
+
+```
+x = 0
+y = 3.14
+s = "I am a string"
+t = 'I am a string too'
+```
+
+*Modules*
+
+```
+import matplotlib
+from matplotlib import pyplot as plt
+import matplotlib.pyplot as plt
+```
+
+*Arithmetic*
+
+```
+x = 5
+y = 2
+
+a = x + y # 7
+s = x - y # 3
+m = x * y # 10
+d1 = x / y # 2.5
+d2 = x // y # 2
+```

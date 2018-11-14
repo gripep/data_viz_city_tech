@@ -6,7 +6,7 @@ Welcome to the Data Visualisation with Python workshop 💻📈
 
 ### Overview
 
-This workshop talks about how to create basic visualisation using python's matplotlib library.
+This workshop talks about how to create basic visualisations using python's matplotlib library.
 In particular we will use the matplotlib.pyplot module.
 
 ### Why Python?
@@ -19,7 +19,7 @@ In particular we will use the matplotlib.pyplot module.
 * First step of data analysis work
 * Give intuitive understanding (find patterns that are hard to see)
 * Explore data
-* Comunicate data
+* Communicate data
 
 ### Why matplotlib? 🤔
 * It is one of the most popular
@@ -84,6 +84,8 @@ l[5] # 5
 l[0:5] # [0, 1, 2, 3, 4]
 l[:5] # [0, 1, 2, 3, 4]
 l[-1] # 10
+
+even = [num for num in l if num%2 == 0] # [0, 2, 4, 6, 8, 10]
 ```
 
 **Loops**

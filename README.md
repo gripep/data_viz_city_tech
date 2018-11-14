@@ -107,7 +107,7 @@ words = 'Do you know the way'
 word_count = 0
 for word in words:
   word_count += 1 # 5
-                  # no word_count++ (sorry guys)
+                  # no ++word_count or word_count++ (sorry guys)
 ```
 
 ## Now let's visualise some data!!! 👌🏼🍕

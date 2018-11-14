@@ -31,7 +31,7 @@ In particular we will use the matplotlib.pyplot module.
 
 ![](https://i.redd.it/7v0a4ldssdq11.png)
 
-* No semicolumns at the end of each statement
+* No ";" at the end of each statement
 * No "{}", just ":" and indentation
 * No declaration of variables
 
